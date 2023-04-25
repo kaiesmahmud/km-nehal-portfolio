@@ -5,8 +5,8 @@ import {
 
 } from 'react-icons/si'
 import {AiFillHtml5,AiOutlineApi} from 'react-icons/ai'
-import {TbBrandNextjs} from 'react-icons/tb'
-import {FaNodeJs,FaJava} from 'react-icons/fa'
+import {TbBrandNextjs,TbBrandPrisma} from 'react-icons/tb'
+import {FaNodeJs} from 'react-icons/fa'
 
 const Skills = () => {
   const skillDetails = [
@@ -86,7 +86,7 @@ const Skills = () => {
               <p className='font-semibold'>React-Router</p>
               <p className='block'> Intermediate</p>
           </div>
-          <div className='bg-white/90 rounded  shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center gap-2'>
+          <div className='bg-white/90 rounded  shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center justify-center gap-2'>
             <TbBrandNextjs className='text-xl md:text-2xl lg:text-3xl'/>
               <p className='font-semibold'>Nexjs</p>
               <p className='block'> Intermediate</p>
@@ -96,17 +96,17 @@ const Skills = () => {
               <p className='font-semibold' >TailwindCss</p>
               <p className='block'> Intermediate</p>
           </div>
-          <div className='bg-white/90  rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center gap-2'>
+          <div className='bg-white/90  rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center justify-center gap-2'>
             <SiFramer className='text-xl md:text-2xl lg:text-3xl'/>
               <p className='font-semibold'>Framer Motion</p>
               <p className='block'> Intermediate</p>
           </div>
-          <div className='bg-white/90 rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center gap-2'>
+          <div className='bg-white/90 rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center justify-center gap-2'>
             <SiTypescript className='text-xl md:text-2xl lg:text-3xl text-sky-600'/>
               <p className='font-semibold'>TypeScript</p>
               <p className='block'> Intermediate</p>
           </div>
-          <div className='bg-white/90 rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center gap-2'>
+          <div className='bg-white/90 rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center justify-center gap-2'>
             <SiGit className='text-xl md:text-2xl lg:text-3xl text-red-500'/>
               <p className='font-semibold'>Git</p>
               <p className='block'> Intermediate</p>
@@ -121,39 +121,42 @@ const Skills = () => {
               <p className='font-semibold'>MongoDB</p>
               <p className='block'> Intermediate</p>
           </div>
-          <div className='bg-white/90 rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center gap-2'>
+          <div className='bg-white/90 rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center justify-center gap-2'>
             <FaNodeJs className='text-xl md:text-2xl lg:text-3xl text-teal-500'/>
               <p className='font-semibold'>Nodejs</p>
               <p className='block'> Intermediate</p>
           </div>
-          <div className='bg-white/90 rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center gap-2'>
+          <div className='bg-white/90 rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center justify-center gap-2'>
             <SiExpress className='text-xl md:text-2xl lg:text-3xl'/>
               <p className='font-semibold'>Expressjs</p>
               <p className='block'> Intermediate</p>
           </div>
           
-          <div className='bg-white/90 rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center gap-2'>
+          <div className='bg-white/90 rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center justify-center  gap-2'>
             <SiMui className='text-xl md:text-2xl lg:text-3xl'/>
               <p className='font-semibold'>MUI</p>
               <p className='block'> Basic</p>
           </div>
-          <div className='bg-white/90 rounded  shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center gap-2'>
+          <div className='bg-white/90 rounded  shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center justify-center gap-2'>
             <AiOutlineApi className='text-xl md:text-2xl lg:text-3xl text-slate-500'/>
               <p className='font-semibold'>API</p>
               <p className='block'> Intermidiate</p>
           </div>
-          <div className='bg-white/90 rounded  shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center gap-2'>
-            <FaJava className='text-xl md:text-2xl lg:text-3xl text-yellow-500'/>
-              <p className='font-semibold'>java</p>
-              <p className='block'> Intermidiate</p>
+          <div className='bg-white/90 rounded  shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center justify-center gap-2'>
+            <TbBrandPrisma className='text-xl md:text-2xl lg:text-3xl text-sky-500'/>
+              <p className='font-semibold'>Prisma</p>
+              <p className='block'> basic</p>
           </div>
         </div>
         <div className='bg-white/90 rounded p-5 shadow text-xs md:text-sm lg:text-base'>
+          
+          <ul>
           {
-            skillDetails.map(i => (
-              <p key={i}>- {i}</p>
-            ))
+            skillDetails.map(i =>
+              <li key={i} className='p-1'>- {i}</li>
+            )
           }
+          </ul>
         </div>
       </div>
     </section>
