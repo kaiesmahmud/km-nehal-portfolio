@@ -24,7 +24,7 @@ const Navbar = () => {
           <Link href={'/#experience'} className="p-2 md:p-3 lg:p-4  hover:bg-slate-800 rounded hover:text-white transition-colors ease-in">Experience</Link>
           <Link href={'/#contact'} className="p-2 md:p-3 lg:p-4  rounded hover:bg-slate-800 hover:text-white transition-colors ease-in">Contact</Link>
         </div>
-        <div className="hidden md:flex gap-2 md:gap-4 lg:gap-6 justify-end items-center text-lg md:text-xl lg:text-3xl">
+        <div className="hidden md:flex gap-2 md:gap-4 lg:gap-6 xl:gap-8 justify-end items-center text-lg md:text-xl lg:text-2xl">
           <Link href={'https://github.com/kaiesmahmud'}>
             <BsGithub/>
           </Link>
