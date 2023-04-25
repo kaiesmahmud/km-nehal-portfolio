@@ -11,32 +11,26 @@ import {FaNodeJs} from 'react-icons/fa'
 const Skills = () => {
   const skillDetails = [
     'Proficiency in HTML5, CSS3, and JavaScript',
-    'Knowledge of web development frameworks  ReactJS',
+    'Knowledge of web development frameworks  ReactJS, NextJS',
     'Understanding of server-side development using NodeJS and ExpressJS.',
-    'Familiarity with database systems like MongoDB, MySQL, or PostgreSQL',
+    'Familiarity with database systems MongoDB, GraphQL',
     'Knowledge of Git and version control',
     'Understanding of RESTful API design and implementation',
-    'Familiarity with Agile methodologies like Scrum and Kanban',
     'Ability to write clean, maintainable, and scalable code',
     'Familiarity with serverless architectures and cloud-based services',
     'Familiarity working with AWS',
     'Ability to work with third-party APIs and integrations',
-    'Knowledge of authentication and authorization mechanisms',
-    'Experience in testing frameworks such as Jest or Mocha',
-    'Understanding of containerization with Docker and Kubernetes',
+    'Knowledge of authentication and authorization ',
+    'Experience in testing frameworks such as Jest',
     'Familiarity with CI/CD pipelines and deployment automation',
     'Knowledge of SEO best practices',
     'Ability to troubleshoot and debug web applications',
-    'Familiarity with microservices and event-driven architectures',
    ' Experience working with GraphQL APIs',
-    'Knowledge of server-side rendering techniques',
-    'Familiarity with frontend design frameworks like Bootstrap or MaterialUI',
-    'Understanding of accessibility and inclusive design',
+    'Knowledge of server-side & client-side rendering techniques',
+    'Familiarity with frontend design frameworks Tailwindcss, MaterialUI, AntDesign',
     'Experience working with websockets and real-time communication',
     'Knowledge of performance optimization techniques',
-    'Familiarity with Agile project management tools like Jira or Trello',
     'Ability to work independently and collaboratively in a remote team environment',
-    'Strong communication skills and ability to clearly articulate technical concepts',
     'Attention to detail and ability to deliver high-quality work',
     'Ability to learn quickly and adapt to new technologies',
     'Strong problem-solving skills and ability to think creatively to solve complex technical challenges',
@@ -153,7 +147,7 @@ const Skills = () => {
           <ul>
           {
             skillDetails.map(i =>
-              <li key={i} className='p-1'>- {i}</li>
+              <li key={i} className='p-1 font-normal'>- {i}</li>
             )
           }
           </ul>
