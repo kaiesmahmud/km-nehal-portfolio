@@ -1,7 +1,7 @@
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <section className=" min-h-[100vh]">Projects</section>
   )
 }
 

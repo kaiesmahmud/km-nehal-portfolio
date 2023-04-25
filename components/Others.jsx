@@ -1,7 +1,7 @@
 
 const Others = () => {
   return (
-    <div>Others</div>
+    <section className=" min-h-[100vh]">Others</section>
   )
 }
 

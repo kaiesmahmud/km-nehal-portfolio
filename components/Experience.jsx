@@ -1,7 +1,7 @@
 
 const Experience = () => {
   return (
-    <div>Experience</div>
+    <section className=" min-h-[100vh]">Experience</section>
   )
 }
 
