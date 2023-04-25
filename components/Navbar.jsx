@@ -1,4 +1,3 @@
-'use client'
 import Link from "next/link"
 import {BsGithub,BsLinkedin} from 'react-icons/bs'
 import {SiHackerrank, SiGmail} from 'react-icons/si'
@@ -9,9 +8,9 @@ import { useState } from "react"
 const Navbar = () => {
   const [open, setOpen] = useState(false)
   return (
-    <header className=" bg-black/20 backdrop-blur-2xl sticky top-0">
+    <header className=" bg-white/20 shadow-lg backdrop-blur-2xl sticky top-0 z-[1000]">
       <nav className="flex justify-between items-center px-3 md:px-5 lg:px-7 py-3">
-        <Link href={'/'} className="text-lg md:text-xl lg:text-3xl xl:text-4xl font-bold">Nehal-Portfolio</Link>
+        <Link href={'/'} className="text-lg md:text-xl lg:text-3xl xl:text-4xl font-bold">My-Portfolio</Link>
         <div className="md:hidden text-2xl cursor-pointer" onClick={()=>setOpen(!open)}>
           {
             !open ? 

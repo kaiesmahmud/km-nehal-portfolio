@@ -18,3 +18,24 @@ body {
 /* ::-webkit-scrollbar {
   display: none;
 } */
+
+.gradient-01 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  bottom: 10%;
+  right: 0%;
+  background: rgb(134, 221, 247);
+  border-radius: 50%;
+  filter: blur(50px);
+}
+.gradient-02 {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 10%;
+  left: 4%;
+  border-radius: 50%;
+  background: #d6d255;
+  filter: blur(90px);
+}

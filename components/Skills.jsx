@@ -1,7 +1,7 @@
 
 const Skills = () => {
   return (
-    <section className=" min-h-[100vh]">Skills</section>
+    <section id="skill" className=" min-h-[90vh]">Skills</section>
   )
 }
 
