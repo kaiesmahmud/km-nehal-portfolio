@@ -38,7 +38,7 @@ const Skills = () => {
   return (
     <section id="skill" className=" min-h-[90vh] pt-[10vh]">
       <h1 className="text-center text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold">My Skills</h1>
-      <div className='grid grid-cols-1 lg:grid-cols-2  p-5 lg:p-10 gap-2 '>
+      <div className='grid grid-cols-1 lg:grid-cols-2  p-5 lg:p-10 gap-2 capitalize'>
         <div className='grid grid-cols-4  gap-2 text-xs md:text-sm lg:text-base'>
           <div className='bg-white/90  rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center justify-center gap-2'>
             <SiCplusplus className='text-xl md:text-2xl lg:text-3xl text-[#00599C]'/>
@@ -82,7 +82,7 @@ const Skills = () => {
           </div>
           <div className='bg-white/90 rounded  shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center justify-center gap-2'>
             <TbBrandNextjs className='text-xl md:text-2xl lg:text-3xl'/>
-              <p className='font-semibold'>Nexjs</p>
+              <p className='font-semibold'>Nextjs</p>
               <p className='block'> Intermediate</p>
           </div>
           <div className='bg-white/90 rounded shadow p-2 md:p-3 lg:p-5 text-xs md:text-sm lg:text-base flex flex-col items-center justify-center gap-2'>
