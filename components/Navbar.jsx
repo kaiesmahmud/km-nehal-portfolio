@@ -20,8 +20,8 @@ const Navbar = () => {
           }
         </div>
         <div className="hidden  md:grid grid-cols-3 gap-2 md:gap-4 lg:gap-6 items-center md:text-lg lg:text-xl text-center font-normal">
-          <Link href={'/#projects'} className="p-2 md:p-3 lg:p-4  hover:bg-slate-800 rounded hover:text-white transition-colors ease-in">Projects</Link>
-          <Link href={'/#experience'} className="p-2 md:p-3 lg:p-4  hover:bg-slate-800 rounded hover:text-white transition-colors ease-in">Experience</Link>
+          <Link href={'/projects'} className="p-2 md:p-3 lg:p-4  hover:bg-slate-800 rounded hover:text-white transition-colors ease-in">Projects</Link>
+          <Link href={'/experience'} className="p-2 md:p-3 lg:p-4  hover:bg-slate-800 rounded hover:text-white transition-colors ease-in">Experience</Link>
           <Link href={'/#contact'} className="p-2 md:p-3 lg:p-4  rounded hover:bg-slate-800 hover:text-white transition-colors ease-in">Contact</Link>
         </div>
         <div className="hidden md:flex gap-2 md:gap-4 lg:gap-6 xl:gap-8 justify-end items-center text-lg md:text-xl lg:text-2xl">

@@ -1,4 +1,4 @@
-import {AiFillHtml5} from 'react-icons/ai'
+import {AiFillHtml5,AiOutlineFundProjectionScreen} from 'react-icons/ai'
 import {CgCPlusPlus} from 'react-icons/cg'
 import {HiOutlineRocketLaunch} from 'react-icons/hi2'
 import {FaUserShield} from 'react-icons/fa'
@@ -14,11 +14,12 @@ import nehal from './../assets/nehal.jpg'
 
 const Hero = () => {
   return (
-    <section className=" min-h-[90vh] relative p-5 md:p-7 lg:p-10">
+    <section className=" min-h-[90vh] relative p-5 md:p-7 lg:p-10 flex items-center justify-center">
       <div className="gradient-01 z-[-2]" />
       <div className="gradient-02 z-[-2]" />
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
-        <div className="bg-teal-500/50 shadow hover:shadow-lg backdrop-blur-2xl   px-3 md:px-4 lg:px-5 xl:px-6 py-10 rounded flex flex-col items-center justify-center gap-3 md:gap-5 lg:gap-6 xl:gap-7">
+        <div className="bg-teal-500/50 shadow hover:shadow-lg backdrop-blur-2xl
+          px-3 md:px-4 lg:px-5 xl:px-6 py-10 rounded flex flex-col items-center justify-center gap-3 md:gap-5 lg:gap-6 xl:gap-7">
           <Image src={nehal} alt='kaies Mahmud Nehal' width={300} height={300} className=" w-32 md:w-40 lg:w-52  rounded-full"/>
           {/* <img src="https://i.ibb.co/SdG0Syc/Nehal.jpg" alt="kaies mahmud nehal" className=" w-32 md:w-40 lg:w-52  rounded-full" /> */}
           <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">Kaies Mahmud Nehal</h1>
@@ -26,10 +27,10 @@ const Hero = () => {
         </div>
         <div className="grid grid-cols-3 grid-rows-3 gap-3 text-xs md:text-sm lg:text-base ">
           <div className='col-span-3'>
-            <Link href={'/#projects'} className="bg-sky-500/50  shadow hover:shadow-lg rounded p-3 flex flex-col items-center
-            justify-center gap-5 md:gap-8 lg:gap-10 py-5">
-              <h2 className="text-lg md:text-xl font-bold">My Projects</h2>
-              <div className="flex items-center gap-2 md:gap-4 lg:gap-6">
+            <Link href={'/projects'} className="shadow h-full hover:shadow-lg rounded p-3 bg-sky-500/50 hover:bg-slate-800 hover:text-sky-400 transition-colors ease-in  flex flex-col gap-3 items-center justify-center">
+              <AiOutlineFundProjectionScreen className='text-3xl' />
+              <h2 className="text-lg md:text-xl ">My Projects</h2>
+              {/* <div className="flex items-center gap-2 md:gap-4 lg:gap-6">
                 <div className="flex flex-col items-center justify-center">
                   <CgCPlusPlus className='text-3xl md:text-4xl lg:text-5xl text-red-500'/>
                   C++
@@ -50,23 +51,23 @@ const Hero = () => {
                   <TbBrandNextjs className='text-3xl md:text-4xl lg:text-5xl text-black'/>
                   Nextjs
                 </div>
-              </div>
+              </div> */}
             </Link>
           </div>
           <div>
-            <Link href={'/#skill'} className="shadow h-full hover:shadow-lg rounded p-3 bg-green-500/50 flex flex-col gap-3 items-center justify-center">
+            <Link href={'/#skill'} className="hover:bg-slate-800 hover:text-sky-400 transition-colors ease-in shadow h-full hover:shadow-lg rounded p-3 bg-green-500/50 flex flex-col gap-3 items-center justify-center">
               <HiOutlineRocketLaunch className='text-3xl'/>
               My Skills
             </Link>
           </div>
           <div >
-            <Link href={'/#education'} className="shadow h-full hover:shadow-lg rounded p-3 bg-blue-500/50 flex flex-col gap-3 items-center justify-center">
+            <Link href={'/#education'} className=" hover:bg-slate-800 hover:text-sky-400 transition-colors ease-in shadow h-full hover:shadow-lg rounded p-3 bg-blue-500/50 flex flex-col gap-3 items-center justify-center">
               <TbFileCertificate className='text-3xl'/>
               My Education
             </Link>
           </div>
           <div className='row-span-2'>
-            <Link href={'/#experience'} className="shadow h-full hover:shadow-lg rounded p-3 bg-purple-500/50 flex flex-col gap-3 items-center justify-center" >
+            <Link href={'/experience'} className="hover:bg-slate-800 hover:text-sky-400 transition-colors ease-in shadow h-full hover:shadow-lg rounded p-3 bg-purple-500/50 flex flex-col gap-3 items-center justify-center" >
               <FaUserShield className='text-3xl '/>
               My Experience
             </Link>

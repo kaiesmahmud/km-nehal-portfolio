@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Contact, Education, Experience, Footer, Hero, Navbar, Others, Projects, Skills } from '@/components'
+import { Contact, Education, Experience, Hero, Others, Skills } from '@/components'
 
 export default function Home() {
   return (
@@ -11,15 +11,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=' font-light max-w-[3000px]'>
-        <Navbar/>
         <Hero/>
         <Skills/>
-        <Projects/>
         <Experience/>
         <Education/>
         <Others/>
         <Contact/>
-        <Footer/>
       </main>
     </>
   )

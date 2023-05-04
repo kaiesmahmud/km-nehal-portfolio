@@ -5,7 +5,6 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Others from "./Others";
-import Projects from "./Projects";
 import Skills from "./Skills";
 
-export {Navbar, Hero,Skills, Projects,Education,Experience,Others,Contact,Footer}
+export {Navbar, Hero,Skills,Education,Experience,Others,Contact,Footer}
