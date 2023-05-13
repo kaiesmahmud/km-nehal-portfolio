@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Contact, Education, Experience, Hero, Others, Skills } from '@/components'
+import { Contact, Education, Hero,  Skills } from '@/components'
 
 export default function Home() {
   return (
@@ -13,9 +13,7 @@ export default function Home() {
       <main className=' font-light max-w-[3000px]'>
         <Hero/>
         <Skills/>
-        <Experience/>
         <Education/>
-        <Others/>
         <Contact/>
       </main>
     </>
