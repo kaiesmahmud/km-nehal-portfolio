@@ -66,7 +66,7 @@ const Experience = () => {
                             <div className=' flex justify-start gap-5 items-start'>
                                 <BsPersonWorkspace className='text-4xl p-1 rounded-full w-[10%]'/>
                                 <div className='flex flex-col gap-2 w-[80%] border-l-2 border-purple-500 pl-5'>
-                                    <h2 className='text-lg font-extralight'>{exp.name}</h2>
+                                    <h2 className='text-lg font-semibold'>{exp.name}</h2>
                                     <h2 className=' text-opacity-80'>{exp.company}</h2>
                                     <h3 className='text-xs text-opacity-50'>{exp.time}</h3>
                                 </div>

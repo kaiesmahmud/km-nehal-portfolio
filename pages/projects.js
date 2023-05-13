@@ -12,7 +12,7 @@ const Card = ({project}) =>(
               project.techs.map(i => (<div key={i} className="bg-slate-600 text-white p-1 rounded px-2 text-xs">{i}</div>))
             }
           </div>
-          <p className="text-xs md:text-sm lg:text-base">{project.description}</p>
+          {/* <p className="text-xs md:text-sm lg:text-base">{project.description}</p> */}
           <div className="grid grid-cols-2 gap-2 md:gap-5 lg:gap-10 text-center pt-5 text-xs md:text-sm lg:text-base">
             {
               project.github &&
