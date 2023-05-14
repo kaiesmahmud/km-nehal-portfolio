@@ -43,8 +43,8 @@ const Navbar = () => {
         open && 
         <div className=" min-h-[92vh] max-h-[96vh] sticky md:hidden">
           <div className="grid grid-cols-1 gap-10  items-center md:text-lg lg:text-xl text-center font-normal" onClick={()=>setOpen(!open)}>
-            <Link href={'/#projects'} className="p-2 hover:bg-slate-800  hover:text-white transition-colors ease-in">Projects</Link>
-            <Link href={'/#experience'} className="p-2 hover:bg-slate-800  hover:text-white transition-colors ease-in">Experience</Link>
+            <Link href={'/projects'} className="p-2 hover:bg-slate-800  hover:text-white transition-colors ease-in">Projects</Link>
+            <Link href={'/experience'} className="p-2 hover:bg-slate-800  hover:text-white transition-colors ease-in">Experience</Link>
             <Link href={'/#contact'} className="p-2  hover:bg-slate-800 hover:text-white transition-colors ease-in">Contact</Link>
             <div className="flex gap-10 justify-center items-center text-lg p-2">
                 <Link href={'https://github.com/kaiesmahmud'} className="rounded-full shadow-lg p-2 overflow-hidden">
