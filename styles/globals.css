@@ -17,9 +17,9 @@ body {
   
 }
 /* Hide the basic scrollbar */
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
-} */
+}
 
 .gradient-01 {
   position: absolute;
