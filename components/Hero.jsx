@@ -18,7 +18,7 @@ const Hero = () => {
           px-3 md:px-4 lg:px-5 xl:px-6 py-10 rounded flex flex-col items-center justify-center gap-3 md:gap-5 lg:gap-6 xl:gap-7">
           <Image src={nehal} alt='kaies Mahmud Nehal' width={300} height={300} className=" w-32 md:w-40 lg:w-52  rounded-full"/>
           <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">Kaies Mahmud Nehal</h1>
-          <p className="px-2 md:px-4 lg:px-5 pt-2 text-xs md:text-sm lg:text-base xl:text-lg text-center"> React Developer with expertise in creating dynamic and responsive web applications using HTML, CSS, React, Nextjs, NoSQL, API, and other technologies. Experience in both frontend and backend development, as well as designing user interfaces with Figma. Enjoy working on challenging projects that require creativity and problem-solving skills. Always eager to learn new things and improve my coding skills.</p>
+          <p className="px-2 md:px-4 lg:px-5 pt-2 text-xs md:text-sm lg:text-base xl:text-lg text-center"> Passionate and highly skilled Full Stack Developer with 3 years of industry experience, specializing in JavaScript, TypeScript, React, Next.js, and Node.js. Seeking a remote position that allows me to leverage my expertise in building cutting-edge web applications. I am motivated to stay at the forefront of technological advancements and keen on expanding my knowledge base. With a proven track record of delivering robust and efficient software solutions, I aim to contribute to a forward-thinking organization that values innovation, collaboration, and growth.</p>
         </div>
         <div className="grid grid-cols-3 grid-rows-3 gap-3 text-xs md:text-sm lg:text-base ">
           <div className='col-span-3'>
